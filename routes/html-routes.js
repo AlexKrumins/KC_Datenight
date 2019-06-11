@@ -17,15 +17,15 @@ module.exports = function(app) {
     // res.sendFile(path.join(__dirname, "../public/index.html"));
     res.render("index");
   });
-  // cms route loads cms.html
-  // app.get("/results", function(req, res) {
-  //   res.sendFile(path.join(__dirname, "../public/results.html"));
-  //   // res.render("results");
-  // });
   // survey route loads survey handlebars
   app.get("/survey", function(req, res) {
     // res.sendFile(path.join(__dirname, "../public/survey.html"));
     res.render("survey");
+  });
+  // results route loads survey handlebars
+  app.get("/results", function(req, res) {
+    // res.sendFile(path.join(__dirname, "../public/results.html"));
+    res.render("results");
   });
   // recBuild route loads recommendations handlebars
   app.get("/recBuild", function(req, res) {
