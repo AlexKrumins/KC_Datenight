@@ -26,7 +26,7 @@ $(function() {
     }
   };
   function netflixAndChill() {
-    $("#name").empty()
+    $("#name").empty()  
     $("#description").empty()
     $("#IMG").empty()
     $("#link").empty()

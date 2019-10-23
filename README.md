@@ -1,20 +1,10 @@
-# Project_2
-The requirements for Project #2 are as follows:
+# KC-Datenight
+https://kc-datenight.herokuapp.com
 
-Must use a Node and Express Web Server
+## Preview
+[![Landing Page](public/style/img/LandingPage.png)](https://kc-datenight.herokuapp.com/)
 
-Must be backed by a MySQL Database with a Sequelize ORM
+[![Survey Page](public/style/img/SurveyPage.png)](https://kc-datenight.herokuapp.com/survey)
 
-Must have both GET and POST routes for retrieving and adding new data
+[![Results Page](public/style/img/SurveyPage.png)](https://kc-datenight.herokuapp.com/survey)
 
-Must be deployed using Heroku (with Data)
-
-Must utilize at least one new library, package, or technology that we haven't discussed
-
-Must have a polished frontend / UI
-
-Must have folder structure that meets MVC Paradigm
-
-Must meet good quality coding standards (indentation, scoping, naming)
-
-Must not expose sensitive API key information on the server, see Protecting-API-Keys-In-Node.md
