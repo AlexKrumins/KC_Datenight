@@ -2,9 +2,9 @@
 https://kc-datenight.herokuapp.com
 
 ## Preview
-[![Landing Page](public/style/img/LandingPage.png)](https://kc-datenight.herokuapp.com/)
+[![Landing Page](LandingPage.png)](https://kc-datenight.herokuapp.com/)
 
-[![Survey Page](public/style/img/SurveyPage.png)](https://kc-datenight.herokuapp.com/survey)
+[![Survey Page](SurveyPage.png)](https://kc-datenight.herokuapp.com/survey)
 
-[![Results Page](public/style/img/SurveyPage.png)](https://kc-datenight.herokuapp.com/survey)
+[![Results Page](ResultsPage.png)](https://kc-datenight.herokuapp.com/survey)
 
