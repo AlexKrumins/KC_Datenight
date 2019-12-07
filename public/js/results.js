@@ -19,6 +19,7 @@ $(function() {
       $("#name").append(suggestionsArray[0].name)
       $("#description").append(suggestionsArray[0].description);
       $("#link").prop("href", suggestionsArray[0].link)
+      $(".link").attr("href", suggestionsArray[0].link)
       $("#IMG").attr("src", suggestionsArray[0].IMG);
     suggestionsArray.splice(0, 1);
     } else {
