@@ -3,17 +3,7 @@ var userID = url.split("=")[1];
 console.log(userID)
 $(function() {
   var suggestionsArray = [];
-  var testArray = [];
-  //   "9sports",
-  //   "8shopping",
-  //   "7music",
-  //   "7animals",
-  //   "6museum",
-  //   "6movies",
-  //   "5active",
-  //   "4outdoor",
-  //   "1comedy"
-  // ]
+  //An API call fills the suggestion Array and each datum is used to fill the display
   function displayResults() {
     if (suggestionsArray.length > 0){
       $("#name").append(suggestionsArray[0].name)
